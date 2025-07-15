@@ -16,9 +16,9 @@ public class HomeController {
     }
 
     @RequestMapping("add")
-    public String add(@RequestParam("num1") int num1, @RequestParam("num2") int num2, HttpSession session) {
+    public String add(@RequestParam("num1") int num1, @RequestParam("num2") int num2, Model model) {
         int result = num1 + num2;
-        session.setAttribute("result", result);
+        model.addAttribute("result", result);
 
 
         return "result.jsp";
