@@ -7,11 +7,11 @@
 <body>
   <h1>Simple Calculator!</h1>
 
-  <form action = "add">
-  <label for = "num1">Enter 1st number:</label>
-  <input type = "text" id = "num1" name = "num1"><br><br>
-  <label for = "num2">Enter 2nd number:</label>
-  <input type = "text" id = "num2" name = "num2"><br><br>
+  <form action = "addAlien">
+  <label for = "aid">Enter Id:</label>
+  <input type = "text" id = "aid" name = "aid"><br><br>
+  <label for = "aname">Enter Name:</label>
+  <input type = "text" id = "aname" name = "aname"><br><br>
   <input type = "submit" value = "submit">
   </form>
 </body>

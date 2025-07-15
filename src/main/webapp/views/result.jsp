@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h2>Result: ${result}</h2>
+  <h2>${alien}</h2>
   <a href="/">Go Back</a>
 </body>
 </html>
