@@ -17,11 +17,8 @@ public class HomeController {
     }
 
     @RequestMapping("addAlien")
-    public ModelAndView add(@RequestParam("aid") int aid, @RequestParam("aname") String aname, ModelAndView mv) {
+    public ModelAndView add(Alien alien, ModelAndView mv) {
 
-        Alien alien = new Alien();
-        alien.setAid(aid);
-        alien.setAname(aname);
         mv.addObject("alien", alien);
         mv.setViewName("result");
        return mv;
